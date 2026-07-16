@@ -1,0 +1,12 @@
+torch
+torchaudio
+silero-tts
+pymorphy3
+natasha
+librosa
+pydub
+soundfile
+scipy
+gradio
+pandas
+tqdm

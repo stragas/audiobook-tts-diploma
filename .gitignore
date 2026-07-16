@@ -1,0 +1,53 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Аудиофайлы (генерируются при работе)
+*.wav
+*.mp3
+*.ogg
+*.flac
+gradio_output.wav
+pipeline_test.wav
+test_output.wav
+baseline_demo.wav
+enhanced_demo.wav
+
+# Логи и кэш
+*.log
+.cache/
+torch_hub_cache/
+
+# Gradio
+flagged/
+
+# Секреты
+.env
+*.key
+*.pem
