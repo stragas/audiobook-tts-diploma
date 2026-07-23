@@ -19,6 +19,21 @@
 - **Audio**: soundfile, numpy, librosa
 - **UI**: Gradio (веб-интерфейс)
 
+---
+
+## 📓 Ноутбуки (Этап №5: Финальная версия и эксперименты)
+
+Согласно требованиям Этапа №5, разработка включает в себя модульные, воспроизводимые Jupyter Notebooks. 
+
+Вы можете просмотреть их прямо в репозитории (папка `notebooks/`) или запустить интерактивно в Google Colab по ссылкам ниже:
+
+| № | Название ноутбука | Описание | Ссылка на запуск в Colab |
+|---|-------------------|----------|--------------------------|
+| 1 | `1_Final_Pipeline.ipynb` | **Финальная версия пайплайна.** Модульная архитектура с чистыми функциями и Friendly User Interface для быстрого тестирования. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YB5MkFwp4BYqMbDzH0UDtsxbsUmYN-j_) |
+| 2 | `2_Experiments_and_Tuning.ipynb` | **Серия воспроизводимых экспериментов.** Подбор `sample_rate`, `max_chars` и оценка влияния NLP на качество (MOS) с визуализацией графиков. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1t3BDkYDC5540FDy24raAUaUahISng_7C) |
+| 3 | `Дипломная работа Андреев В.М..ipynb` | **Сводный рабочий ноутбук.** Объединяет все этапы разработки и тестирования в одном месте. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iJunBu0nIHT2-jtdjdbcb8K976osGCgJ) |
+
+> 💡 **Примечание:** Для корректной работы ноутбуков в Colab достаточно нажать кнопку **"Open in Colab"** и выполнить ячейки по порядку (`Runtime -> Run all`). Все зависимости установятся автоматически.
 ## Установка и запуск
 ```bash
 # 1. Создать виртуальное окружение
